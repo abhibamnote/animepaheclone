@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.line{
+    height: 2px;
+    width: 100vw;
+    background-color: rgb(213,1,91);
+}
+nav{
+    background-color: rgb(20, 20, 20);
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+}
+.logo{
+    margin-left: 120px;
+}
+.stay{
+    display: flex;
+    padding: 6px;
+    height: 5vh;
+    background-color: rgb(20, 20, 20);
+}
+.staytag{
+        
+    display: flex;
+    height: 5vh;
+    width: 8vw;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    text-align: center;
+    text-indent: 20px;
+}
+.staytag:hover{
+    background-color: rgb(213,1,91);
+}
+.search{
+    height: 4vh;
+    width: 14vw;
+}
+.stay2{
+    display: flex;
+    padding: 6px;
+    height: 4vh;
+    background-color: rgb(20, 20, 20);
+    margin-left: 30vw; 
+}
+.heading{
+    color: white;
+    margin-left: 120px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.content{
+    height: 139vh;
+    margin-right: 120px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 363px 363px 363px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 10px;
+}
+.anime:hover{
+    background-size: 383px 220px;
+}
+.anime{
+    background-color: hotpink;
+    background-image: url(naruto.jpg);
+    background-size: 363px 200px;
+    overflow: hidden;
+}
+.playbutton{
+    z-index: 4;
+    position: relative;
+    top: 45px;
+    opacity: 0;
+    left: 130px;
+}
+.playbutton:hover{
+    opacity: 0.7;
+}
+.pages{
+    height: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+}
+.pagearr{
+    height: 30px;
+    width: 30px;
+    padding: 7px 0px 0px 0px;
+    color: rgb(213,1,91);
+    background-color: rgb(17,17,17);
+}
+.finalspace{
+    height: 8vh;
+}
